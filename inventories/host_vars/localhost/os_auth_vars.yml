@@ -1,0 +1,8 @@
+---
+os_auth_url: "https://api.example.com:1234/v1"
+os_auth_project_name: project_name
+os_auth_user: your_username_in_openstack
+# Use a vault to store your secrets!!!! https://docs.ansible.com/ansible/latest/user_guide/vault.html
+os_auth_pass: "{{ vault_os_auth_pass_prod_user }}"
+os_user_domain_name: your_openstack_domain_name
+os_project_domain_name: your_openstack_project_domain_name

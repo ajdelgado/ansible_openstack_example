@@ -1,0 +1,7 @@
+virtual_servers:
+  - name: node1
+    floating_ip: 1.2.3.4
+  - name: node2
+    floating_ip: 2.3.4.5
+  - name: node3
+    floating_ip: 3.4.5.6
