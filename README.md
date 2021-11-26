@@ -2,10 +2,13 @@
 Sample repository on how to spin up servers in Openstack using Ansible
 
 ## Requirements
-- You will need a file called vault_password in the root with the password in clear text of your Ansible Vault
+- You will need a file called *vault_password* in the root with the password in clear text of your Ansible Vault
 - Ansible
+- Galaxy collection openstack.cloud (Run *ansible-galaxy collection install openstack.cloud* from the root of the repository to get it installed)
 
 ## Running it
+
+ansible-playbook playbooks/spinup_nodes.yml
 
 ## References
 ### Installing Ansible
